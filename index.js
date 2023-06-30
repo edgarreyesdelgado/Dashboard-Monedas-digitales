@@ -28,8 +28,6 @@ const Currentprice = datos.map((coin)=> coin.current_price
             borderWidth: 1,
             borderColor: getDataColors(),
                backgroundColor: getDataColors(20)
-                         
-            
             
           }]
         },
