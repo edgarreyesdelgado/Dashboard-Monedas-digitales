@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+
+        <h1>Monedas Digitales </h1>
+        <hr>
+
+        <section class="cols-2">
+
+            <figure>
+                <h2>Precio Actual</h2>
+    
+                <canvas id="myChart1" height="500px"></canvas>
+                
+            </figure>
+
+            <figure>
+                <h2>Valor de mercado</h2>
+    
+                <canvas id="myChart2" height="500px"></canvas>
+                
+            </figure>
+        </section>
+
+            <section class="cols-1">
+                <figure>
+                    <h2>Cambio de precio porcentual en las ultimas 24 horas</h2>
+                    <canvas id="myChart3" height="500px"></canvas>
+                </figure>
+            
+            </section>
+       
+    </main>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   
+
+    <script src="./index.js"></script>
+    <script src="./helpers.js"></script>
+   
+
+</body>
+</html>
